@@ -4,10 +4,30 @@ import { fileURLToPath } from 'url'
 import express from 'express'
 
 import { createRequire } from 'module'
+import { JSDOM } from 'jsdom'
+
+function setGlobalWebAPI() {
+  const { window } = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`).window
+  // console.log('window', window)
+  const { document, navigator } = window
+
+  console.log('global', typeof global)
+
+  global.window = window
+  console.log('global.window', typeof global.window)
+
+  console.log('window', typeof window)
+  // global.document = document
+  // global.navigator = navigator
+}
+
+// setGlobalWebAPI()
+
 const require = createRequire(import.meta.url)
 const resolve = (p) =>
   path.resolve(path.dirname(fileURLToPath(import.meta.url)), p)
 
+// window.nodeis = true //可自行设置给window标识出node环境的标志位
 const createServer = async (isTest = false) => {
   const isProd = process.env.NODE_ENV === 'production'
   const app = express()

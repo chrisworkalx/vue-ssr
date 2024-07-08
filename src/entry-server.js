@@ -3,13 +3,19 @@ import { renderToString } from 'vue/server-renderer'
 import { createApp } from './main'
 
 export async function render(url, manifest) {
+  console.log('url---render', url)
   const { app, router, pinia } = createApp()
 
   router.push(url)
   await router.isReady()
 
   const ctx = {}
-  const html = await renderToString(app, ctx)
+  let html = ''
+  try {
+    html = await renderToString(app, ctx)
+  } catch (e) {
+    alert(e)
+  }
   const preloadLinks = renderPreloadLinks(ctx.modules, manifest)
   return [html, preloadLinks, JSON.stringify(pinia.state.value)]
 }

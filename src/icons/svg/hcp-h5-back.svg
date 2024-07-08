@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3.1 返回1备份 16</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.541176 0 0 0 0 0.556863 0 0 0 0 0.556863 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="移动端-页面-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-2" transform="translate(-165.000000, -1350.000000)">
+            <g id="编组-27" transform="translate(16.000000, 619.000000)">
+                <g id="编组-26备份" transform="translate(16.000000, 720.000000)">
+                    <g id="3.1-返回1备份-16" transform="translate(133.000000, 11.000000)" filter="url(#filter-1)">
+                        <g transform="translate(6.000000, 6.000000) scale(1, -1) rotate(-90.000000) translate(-6.000000, -6.000000) ">
+                            <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="12" height="12"></rect>
+                            <path d="M4.479439,6.00028737 L8.95227828,1.82562457 C9.21590724,1.57914917 9.21590724,1.18024919 8.95227828,0.934561256 C8.68866248,0.688479581 8.26095768,0.688479581 7.99734188,0.934561256 L3.04741587,5.55485097 C2.78419471,5.80093264 2.78419471,6.20003582 3.04741587,6.44534273 L7.99734187,11.0654419 C8.12955756,11.1884891 8.30236797,11.25 8.4752047,11.25 C8.64805458,11.25 8.820865,11.1884764 8.95227827,11.0650482 C9.21590723,10.8189665 9.21590723,10.4206381 8.95227827,10.1745564 L4.479439,6.00028737" id="路径" fill="#666666" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

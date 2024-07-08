@@ -9,10 +9,11 @@
   </head>
   <body>
     <div id="app"><!--ssr-outlet--></div>
-    <script type="module" src="/src/main.ts"></script>
-    <script type="module" src="/src/entry-client.ts" ></script>
+    <!-- <script type="module" src="/src/main.ts"></script> -->
+    <script type="module" src="/src/entry-client.ts"></script>
     <script>
       window.__INITIAL_STATE__ = '<!--pinia-state-->'
+      window.__DEFAULT_WINDOW__ = '<!--default-window-->'
     </script>
   </body>
 </html>

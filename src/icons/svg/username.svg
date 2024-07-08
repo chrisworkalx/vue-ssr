@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 17</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.541176 0 0 0 0 0.556863 0 0 0 0 0.556863 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="移动端-页面-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-4" transform="translate(-48.000000, -2526.000000)">
+            <g id="编组-71" transform="translate(16.000000, 2108.000000)">
+                <g id="编组-49" transform="translate(16.000000, 372.000000)">
+                    <g id="编组-62" transform="translate(16.000000, 44.000000)">
+                        <g id="编组-17" transform="translate(0.000000, 2.000000)" filter="url(#filter-1)">
+                            <g>
+                                <rect id="矩形" stroke="#979797" stroke-width="0.7" fill="#D8D8D8" opacity="0" x="0.35" y="0.35" width="13.3" height="13.3"></rect>
+                                <g id="PersonPortrait" transform="translate(1.166667, 0.000000)" fill="#3F4444">
+                                    <path d="M9.07407407,3.18181818 C9.07407407,4.93907273 7.62312963,6.36363636 5.83333333,6.36363636 C4.04353704,6.36363636 2.59259259,4.93907273 2.59259259,3.18181818 C2.59259259,1.42454773 4.04353704,0 5.83333333,0 C7.62312963,0 9.07407407,1.42454773 9.07407407,3.18181818 Z M0,9.54545455 C0,7.98954545 1.15046296,6.65954545 2.71574074,6.40818182 C4.45925926,8.04363636 7.20740741,8.04363636 8.95092593,6.40818182 C10.5162037,6.65954545 11.6666667,7.98954545 11.6666667,9.54545455 L11.6666667,14 L0,14 L0,9.54545455 Z" id="形状"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
