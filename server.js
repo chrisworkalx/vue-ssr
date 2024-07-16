@@ -4,22 +4,22 @@ import { fileURLToPath } from 'url'
 import express from 'express'
 
 import { createRequire } from 'module'
-import { JSDOM } from 'jsdom'
+// import { JSDOM } from 'jsdom'
 
-function setGlobalWebAPI() {
-  const { window } = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`).window
-  // console.log('window', window)
-  const { document, navigator } = window
+// function setGlobalWebAPI() {
+//   const { window } = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`).window
+//   // console.log('window', window)
+//   const { document, navigator } = window
 
-  console.log('global', typeof global)
+//   console.log('global', typeof global)
 
-  global.window = window
-  console.log('global.window', typeof global.window)
+//   global.window = window
+//   console.log('global.window', typeof global.window)
 
-  console.log('window', typeof window)
-  // global.document = document
-  // global.navigator = navigator
-}
+//   console.log('window', typeof window)
+//   // global.document = document
+//   // global.navigator = navigator
+// }
 
 // setGlobalWebAPI()
 
